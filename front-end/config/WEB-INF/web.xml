@@ -7,9 +7,8 @@
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
 
-  <servlet-mapping>
-    <servlet-name>default</servlet-name>
-    <url-pattern>dist/front-end</url-pattern>
-  </servlet-mapping>
-
+  <error-page>
+    <error-code>404</error-code>
+    <location>/</location>
+  </error-page>
 </web-app>
